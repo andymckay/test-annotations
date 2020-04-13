@@ -1,0 +1,12 @@
+name: ⚠
+
+on: [push, repository_dispatch]
+
+jobs:
+    build:
+      runs-on: ubuntu-latest
+      steps:
+      - name: Annotate ✒
+        run: |
+          echo ::error::User issued error!
+          echo ::warning line=1,col=4,file=insecure.sh::🚨There are security 🔒 issues with this repository. 🚨
