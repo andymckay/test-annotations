@@ -1,6 +1,6 @@
 name: ⚠
 
-on: [push, repository_dispatch]
+on: [push, repository_dispatch, workflow_dispatch]
 
 jobs:
     build:
