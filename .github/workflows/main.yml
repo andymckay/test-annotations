@@ -8,8 +8,4 @@ jobs:
       steps:
       - name: Annotate ✒
         run: |
-          echo "::group::My title"
-          echo "Inside group"
-          echo "::endgroup::"
-          echo ::error::User issued error!
-          echo ::warning line=1,col=4,file=insecure.sh::🚨There are security 🔒 issues with this repository. 🚨
+          echo ::warning::https://example.com
