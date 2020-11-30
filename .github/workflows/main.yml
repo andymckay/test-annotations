@@ -8,4 +8,4 @@ jobs:
       steps:
       - name: Annotate ✒
         run: |
-          echo ::warning::<a href='https://example.com'>test</a>
+          echo "::warning::<a href='https://example.com'>test</a>"
