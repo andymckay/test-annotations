@@ -1,4 +1,4 @@
-name: ⚠
+name: Deploy to monorepo
 
 on: [push, repository_dispatch, workflow_dispatch]
 
